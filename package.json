@@ -1,0 +1,31 @@
+{
+  "name": "drone",
+  "version": "1.0.0",
+  "description": "Project to control drone Dji Tello",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenataTorres/node-drone.git"
+  },
+  "keywords": [
+    "nodejs",
+    "nom",
+    "express",
+    "fs",
+    "path",
+    "url",
+    "mongodb",
+    "udp",
+    "crypto"
+  ],
+  "author": "Renata Torres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RenataTorres/node-drone/issues"
+  },
+  "homepage": "https://github.com/RenataTorres/node-drone#readme"
+}
