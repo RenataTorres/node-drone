@@ -29,6 +29,16 @@ class CommandParser {
         drone.onLeft(dist)
         return true
       }
+      if(line.startsWith('cw')){
+        const [, dist] = line.split(" ")
+        drone.onCw(dist)
+        return true
+      }
+      if(line.startsWith('ccw')){
+        const [, dist] = line.split(" ")
+        drone.onCcw(dist)
+        return true
+      }
       if(line == 'battery'){
         drone.onBattery(line)
         return true
